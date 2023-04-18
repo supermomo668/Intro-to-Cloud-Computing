@@ -1,0 +1,4 @@
+*.csv
+*.tgz
+*.terraform
+data/
