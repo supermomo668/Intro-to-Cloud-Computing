@@ -1,0 +1,16 @@
+[
+  {
+    "location": "cloud-spark-cluster614ec98b5f808b20-ssh.azurehdinsight.net",
+    "name": "SSH",
+    "port": 22,
+    "privateIpAddress": null,
+    "protocol": "TCP"
+  },
+  {
+    "location": "cloud-spark-cluster614ec98b5f808b20.azurehdinsight.net",
+    "name": "HTTPS",
+    "port": 443,
+    "privateIpAddress": null,
+    "protocol": "TCP"
+  }
+]

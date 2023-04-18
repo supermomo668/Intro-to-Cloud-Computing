@@ -1,0 +1,30 @@
+{
+  "referenceGuide":"Cite all the reference sources in the required format. Proper citations will help you avoid unnecessary trouble but does not make it acceptable to copy code. Read the course and university policy statements in this regard. When working with others, limit the discussion to block diagrams and arrows. Do not look at another students' code. Read the JSON semantics and make use of JSON validator from the Internet if needed.",
+  "websites":[
+    {
+      "title":"Neo4j Java driver github",
+      "url":"https://github.com/neo4j/neo4j-java-driver",
+      "code":"FollowerServlet.java",
+      "description":"Official documentation & examples"
+    }
+    {
+      "title":"Mongodb sample tutorial",
+      "url":"https://www.mongodb.com/developer/quickstart/java-setup-crud-operations/",
+      "code":"HomepageServlet.java",
+      "description":"Official documentation & examples for Mongodb"
+    }
+    {
+      "title":"java code iterator example",
+      "url":"https://stackoverflow.com/questions/9151619/how-to-iterate-over-a-jsonobject",
+      "code":"TimelineServerlet.java",
+      "description":"Code example on basic java "
+    }
+  ],
+  "collaborators":[
+    {
+      "andrewId":"<collaborator andrewId>",
+      "collaborationType":"<I helped X, X helped me, or we helped each other>",
+      "description":"<describe the idea discussed or shared>"
+    }
+  ]
+}

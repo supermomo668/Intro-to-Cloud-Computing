@@ -1,0 +1,54 @@
+{
+    "Instances": [
+        {
+            "Id": "ci-1836GTBQQJQVW",
+            "Ec2InstanceId": "i-075ffb2f0fe2e094f",
+            "PublicDnsName": "ec2-52-91-171-10.compute-1.amazonaws.com",
+            "PublicIpAddress": "52.91.171.10",
+            "PrivateDnsName": "ip-172-31-20-198.ec2.internal",
+            "PrivateIpAddress": "172.31.20.198",
+            "Status": {
+                "State": "RUNNING",
+                "StateChangeReason": {},
+                "Timeline": {
+                    "CreationDateTime": 1649018910.236,
+                    "ReadyDateTime": 1649019169.394
+                }
+            },
+            "InstanceGroupId": "ig-221RXF8IPRZUM",
+            "Market": "SPOT",
+            "InstanceType": "m4.large",
+            "EbsVolumes": [
+                {
+                    "Device": "/dev/sdb",
+                    "VolumeId": "vol-0ee3889c87acb13fe"
+                }
+            ]
+        },
+        {
+            "Id": "ci-3DL2JT2OKRLTH",
+            "Ec2InstanceId": "i-01030bf8cd1dc36fb",
+            "PublicDnsName": "ec2-54-87-154-234.compute-1.amazonaws.com",
+            "PublicIpAddress": "54.87.154.234",
+            "PrivateDnsName": "ip-172-31-28-250.ec2.internal",
+            "PrivateIpAddress": "172.31.28.250",
+            "Status": {
+                "State": "RUNNING",
+                "StateChangeReason": {},
+                "Timeline": {
+                    "CreationDateTime": 1649018910.236,
+                    "ReadyDateTime": 1649019169.393
+                }
+            },
+            "InstanceGroupId": "ig-221RXF8IPRZUM",
+            "Market": "SPOT",
+            "InstanceType": "m4.large",
+            "EbsVolumes": [
+                {
+                    "Device": "/dev/sdb",
+                    "VolumeId": "vol-05382dc3799cc83ae"
+                }
+            ]
+        }
+    ]
+}

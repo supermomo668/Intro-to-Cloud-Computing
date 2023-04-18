@@ -1,0 +1,9 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "virtualNetworkId": {
+            "value": "/subscriptions/70e826c7-0644-40e0-baf8-6ea10a818774/resourceGroups/cloud-storage-rg/providers/Microsoft.Network/virtualNetworks/cloud-computing-vnet"
+        }
+    }
+}

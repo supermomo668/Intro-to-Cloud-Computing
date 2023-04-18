@@ -1,0 +1,23 @@
+{
+  "load_generator_ami": "ami-0273735cd4c306ac0",
+  "web_service_ami": "ami-042de649749923897",
+  "instance_type": "m5.large",
+  "asg_max_size": 4,
+  "asg_min_size": 1,
+  "asg_desired_capacity": 1,
+  "health_check_grace_period": 10,
+  "cooldown_period_scale_in": 180,
+  "cooldown_period_scale_out": 30,
+  "scale_out_adjustment": 1,
+  "scale_in_adjustment": -1,
+  "asg_default_cooldown_period": 60,
+  "alarm_period": 60,
+  "cpu_lower_threshold": 20,
+  "cpu_upper_threshold": 75,
+  "alarm_evaluation_periods_scale_out": 1,
+  "alarm_evaluation_periods_scale_in":5,
+  "auto_scaling_target_group": "p1-TG-ELB",
+  "load_balancer_name": "p1-ELB",
+  "launch_configuration_name": "p1-ASG EC2",
+  "auto_scaling_group_name": "p1-ASG"
+}

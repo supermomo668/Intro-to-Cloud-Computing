@@ -1,0 +1,24 @@
+{  
+    "referenceGuide" : "Cite all the reference sources in the required format. Proper citations will help you avoid unnecessary trouble. Read JSON grammar from Internet if needed.",
+    "websites":[  
+        {  
+            "title":"Boto3 Documentation",
+            "url":"https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services",
+            "code":"creating instances",
+            "description":"Boto3 official documentation from AWS"
+        },
+        {  
+            "title":"AWSCLI Documentation",
+            "url":"https://docs.aws.amazon.com/autoscaling/ec2/userguide/as-scaling-simple-step.html#as-scaling-adjustment",
+            "code":"create scaling policy",
+            "description":"AWSCLI official documentation from AWS"
+        }
+    ],
+    "collaborators":[
+        {
+            "submissionUsername":"<collaborator submissionUsername>",
+            "collaborationType":"<I helped X, X helped me, or we helped each other>",
+            "description":"<describe the idea you shared>"
+        }
+    ]
+}

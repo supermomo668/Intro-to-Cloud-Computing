@@ -1,4 +1,6 @@
 *.csv
 *.tgz
 *.terraform
+*.wav
+*.jpg
 data/

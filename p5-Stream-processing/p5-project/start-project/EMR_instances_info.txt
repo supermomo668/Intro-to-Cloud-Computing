@@ -1,0 +1,367 @@
+{
+    "Instances": [
+        {
+            "Id": "ci-1LCKWXXBUXAGP",
+            "Ec2InstanceId": "i-07ca05617658d042e",
+            "PublicDnsName": "ec2-54-167-44-126.compute-1.amazonaws.com",
+            "PublicIpAddress": "54.167.44.126",
+            "PrivateDnsName": "ip-172-31-18-36.ec2.internal",
+            "PrivateIpAddress": "172.31.18.36",
+            "Status": {
+                "State": "RUNNING",
+                "StateChangeReason": {},
+                "Timeline": {
+                    "CreationDateTime": 1649647738.146,
+                    "ReadyDateTime": 1649648000.071
+                }
+            },
+            "InstanceGroupId": "ig-17DI9KPEUUSP9",
+            "Market": "SPOT",
+            "InstanceType": "m4.large",
+            "EbsVolumes": [
+                {
+                    "Device": "/dev/sdb",
+                    "VolumeId": "vol-07b268ec35e97a56e"
+                }
+            ]
+        },
+        {
+            "Id": "ci-1NKI3RGYLLLLQ",
+            "Ec2InstanceId": "i-0c8552445209672cb",
+            "PublicDnsName": "ec2-3-94-192-127.compute-1.amazonaws.com",
+            "PublicIpAddress": "3.94.192.127",
+            "PrivateDnsName": "ip-172-31-26-111.ec2.internal",
+            "PrivateIpAddress": "172.31.26.111",
+            "Status": {
+                "State": "RUNNING",
+                "StateChangeReason": {},
+                "Timeline": {
+                    "CreationDateTime": 1649647738.146,
+                    "ReadyDateTime": 1649648000.073
+                }
+            },
+            "InstanceGroupId": "ig-17DI9KPEUUSP9",
+            "Market": "SPOT",
+            "InstanceType": "m4.large",
+            "EbsVolumes": [
+                {
+                    "Device": "/dev/sdb",
+                    "VolumeId": "vol-0283d8333ca20c48c"
+                }
+            ]
+        },
+        {
+            "Id": "ci-20R2AMYLGGSGJ",
+            "Ec2InstanceId": "i-001239298d587d297",
+            "PublicDnsName": "ec2-3-84-223-169.compute-1.amazonaws.com",
+            "PublicIpAddress": "3.84.223.169",
+            "PrivateDnsName": "ip-172-31-25-141.ec2.internal",
+            "PrivateIpAddress": "172.31.25.141",
+            "Status": {
+                "State": "RUNNING",
+                "StateChangeReason": {},
+                "Timeline": {
+                    "CreationDateTime": 1649647829.531,
+                    "ReadyDateTime": 1649648000.054
+                }
+            },
+            "InstanceGroupId": "ig-2FVR39S2P7L53",
+            "Market": "SPOT",
+            "InstanceType": "m4.large",
+            "EbsVolumes": [
+                {
+                    "Device": "/dev/sdb",
+                    "VolumeId": "vol-042542cd442651fdb"
+                }
+            ]
+        }
+    ]
+}
+{
+    "Cluster": {
+        "Id": "j-3JMQMLFNNKCX7",
+        "Name": "p43-emr-cluster",
+        "Status": {
+            "State": "WAITING",
+            "StateChangeReason": {
+                "Message": "Cluster ready after last step completed."
+            },
+            "Timeline": {
+                "CreationDateTime": 1649647678.569,
+                "ReadyDateTime": 1649648072.703
+            }
+        },
+        "Ec2InstanceAttributes": {
+            "Ec2KeyName": "15619-CC",
+            "Ec2SubnetId": "subnet-058900e1561fcf46c",
+            "RequestedEc2SubnetIds": [
+                "subnet-058900e1561fcf46c"
+            ],
+            "Ec2AvailabilityZone": "us-east-1c",
+            "RequestedEc2AvailabilityZones": [],
+            "IamInstanceProfile": "EMR_EC2_DefaultRole",
+            "EmrManagedMasterSecurityGroup": "sg-09d92fc6ba31f3543",
+            "EmrManagedSlaveSecurityGroup": "sg-0f9ac4013cf97e688",
+            "ServiceAccessSecurityGroup": "",
+            "AdditionalMasterSecurityGroups": [
+                ""
+            ],
+            "AdditionalSlaveSecurityGroups": [
+                ""
+            ]
+        },
+        "InstanceCollectionType": "INSTANCE_GROUP",
+        "LogUri": "s3n://aws-logs-stream-processing-25a6-us-east-1/",
+        "ReleaseLabel": "emr-5.29.0",
+        "AutoTerminate": false,
+        "TerminationProtected": false,
+        "VisibleToAllUsers": true,
+        "Applications": [
+            {
+                "Name": "Hadoop",
+                "Version": "2.8.5"
+            },
+            {
+                "Name": "ZooKeeper",
+                "Version": "3.4.14"
+            }
+        ],
+        "Tags": [
+            {
+                "Key": "Project",
+                "Value": "stream-processing"
+            }
+        ],
+        "ServiceRole": "EMR_DefaultRole",
+        "NormalizedInstanceHours": 0,
+        "MasterPublicDnsName": "ec2-3-84-223-169.compute-1.amazonaws.com",
+        "Configurations": [
+            {
+                "Classification": "yarn-site",
+                "Properties": {
+                    "yarn.log-aggregation-enable": "true"
+                }
+            }
+        ],
+        "ScaleDownBehavior": "TERMINATE_AT_TASK_COMPLETION",
+        "KerberosAttributes": {},
+        "ClusterArn": "arn:aws:elasticmapreduce:us-east-1:380955945980:cluster/j-3JMQMLFNNKCX7",
+        "StepConcurrencyLevel": 1,
+        "PlacementGroups": [],
+        "BootstrapActions": [],
+        "InstanceGroups": [
+            {
+                "Id": "ig-17DI9KPEUUSP9",
+                "Name": "",
+                "Market": "SPOT",
+                "InstanceGroupType": "CORE",
+                "BidPrice": "0.1",
+                "InstanceType": "m4.large",
+                "RequestedInstanceCount": 2,
+                "RunningInstanceCount": 2,
+                "Status": {
+                    "State": "RUNNING",
+                    "StateChangeReason": {
+                        "Message": ""
+                    },
+                    "Timeline": {
+                        "CreationDateTime": 1649647678.575,
+                        "ReadyDateTime": 1649648065.578
+                    }
+                },
+                "Configurations": [],
+                "ConfigurationsVersion": 0,
+                "LastSuccessfullyAppliedConfigurations": [],
+                "LastSuccessfullyAppliedConfigurationsVersion": 0,
+                "EbsBlockDevices": [
+                    {
+                        "VolumeSpecification": {
+                            "VolumeType": "gp2",
+                            "SizeInGB": 50
+                        },
+                        "Device": "/dev/sdb"
+                    }
+                ],
+                "ShrinkPolicy": {}
+            },
+            {
+                "Id": "ig-2FVR39S2P7L53",
+                "Name": "",
+                "Market": "SPOT",
+                "InstanceGroupType": "MASTER",
+                "BidPrice": "0.1",
+                "InstanceType": "m4.large",
+                "RequestedInstanceCount": 1,
+                "RunningInstanceCount": 1,
+                "Status": {
+                    "State": "RUNNING",
+                    "StateChangeReason": {
+                        "Message": ""
+                    },
+                    "Timeline": {
+                        "CreationDateTime": 1649647678.575,
+                        "ReadyDateTime": 1649648000.054
+                    }
+                },
+                "Configurations": [],
+                "ConfigurationsVersion": 0,
+                "LastSuccessfullyAppliedConfigurations": [],
+                "LastSuccessfullyAppliedConfigurationsVersion": 0,
+                "EbsBlockDevices": [
+                    {
+                        "VolumeSpecification": {
+                            "VolumeType": "gp2",
+                            "SizeInGB": 50
+                        },
+                        "Device": "/dev/sdb"
+                    }
+                ],
+                "ShrinkPolicy": {}
+            }
+        ]
+    }
+}
+{
+    "Cluster": {
+        "Id": "j-3JMQMLFNNKCX7",
+        "Name": "p43-emr-cluster",
+        "Status": {
+            "State": "WAITING",
+            "StateChangeReason": {
+                "Message": "Cluster ready after last step completed."
+            },
+            "Timeline": {
+                "CreationDateTime": 1649647678.569,
+                "ReadyDateTime": 1649648072.703
+            }
+        },
+        "Ec2InstanceAttributes": {
+            "Ec2KeyName": "15619-CC",
+            "Ec2SubnetId": "subnet-058900e1561fcf46c",
+            "RequestedEc2SubnetIds": [
+                "subnet-058900e1561fcf46c"
+            ],
+            "Ec2AvailabilityZone": "us-east-1c",
+            "RequestedEc2AvailabilityZones": [],
+            "IamInstanceProfile": "EMR_EC2_DefaultRole",
+            "EmrManagedMasterSecurityGroup": "sg-09d92fc6ba31f3543",
+            "EmrManagedSlaveSecurityGroup": "sg-0f9ac4013cf97e688",
+            "ServiceAccessSecurityGroup": "",
+            "AdditionalMasterSecurityGroups": [
+                ""
+            ],
+            "AdditionalSlaveSecurityGroups": [
+                ""
+            ]
+        },
+        "InstanceCollectionType": "INSTANCE_GROUP",
+        "LogUri": "s3n://aws-logs-stream-processing-25a6-us-east-1/",
+        "ReleaseLabel": "emr-5.29.0",
+        "AutoTerminate": false,
+        "TerminationProtected": false,
+        "VisibleToAllUsers": true,
+        "Applications": [
+            {
+                "Name": "Hadoop",
+                "Version": "2.8.5"
+            },
+            {
+                "Name": "ZooKeeper",
+                "Version": "3.4.14"
+            }
+        ],
+        "Tags": [
+            {
+                "Key": "Project",
+                "Value": "stream-processing"
+            }
+        ],
+        "ServiceRole": "EMR_DefaultRole",
+        "NormalizedInstanceHours": 12,
+        "MasterPublicDnsName": "ec2-3-84-223-169.compute-1.amazonaws.com",
+        "Configurations": [
+            {
+                "Classification": "yarn-site",
+                "Properties": {
+                    "yarn.log-aggregation-enable": "true"
+                }
+            }
+        ],
+        "ScaleDownBehavior": "TERMINATE_AT_TASK_COMPLETION",
+        "KerberosAttributes": {},
+        "ClusterArn": "arn:aws:elasticmapreduce:us-east-1:380955945980:cluster/j-3JMQMLFNNKCX7",
+        "StepConcurrencyLevel": 1,
+        "PlacementGroups": [],
+        "BootstrapActions": [],
+        "InstanceGroups": [
+            {
+                "Id": "ig-17DI9KPEUUSP9",
+                "Name": "",
+                "Market": "SPOT",
+                "InstanceGroupType": "CORE",
+                "BidPrice": "0.1",
+                "InstanceType": "m4.large",
+                "RequestedInstanceCount": 2,
+                "RunningInstanceCount": 2,
+                "Status": {
+                    "State": "RUNNING",
+                    "StateChangeReason": {
+                        "Message": ""
+                    },
+                    "Timeline": {
+                        "CreationDateTime": 1649647678.575,
+                        "ReadyDateTime": 1649648065.578
+                    }
+                },
+                "Configurations": [],
+                "ConfigurationsVersion": 0,
+                "LastSuccessfullyAppliedConfigurations": [],
+                "LastSuccessfullyAppliedConfigurationsVersion": 0,
+                "EbsBlockDevices": [
+                    {
+                        "VolumeSpecification": {
+                            "VolumeType": "gp2",
+                            "SizeInGB": 50
+                        },
+                        "Device": "/dev/sdb"
+                    }
+                ],
+                "ShrinkPolicy": {}
+            },
+            {
+                "Id": "ig-2FVR39S2P7L53",
+                "Name": "",
+                "Market": "SPOT",
+                "InstanceGroupType": "MASTER",
+                "BidPrice": "0.1",
+                "InstanceType": "m4.large",
+                "RequestedInstanceCount": 1,
+                "RunningInstanceCount": 1,
+                "Status": {
+                    "State": "RUNNING",
+                    "StateChangeReason": {
+                        "Message": ""
+                    },
+                    "Timeline": {
+                        "CreationDateTime": 1649647678.575,
+                        "ReadyDateTime": 1649648000.054
+                    }
+                },
+                "Configurations": [],
+                "ConfigurationsVersion": 0,
+                "LastSuccessfullyAppliedConfigurations": [],
+                "LastSuccessfullyAppliedConfigurationsVersion": 0,
+                "EbsBlockDevices": [
+                    {
+                        "VolumeSpecification": {
+                            "VolumeType": "gp2",
+                            "SizeInGB": 50
+                        },
+                        "Device": "/dev/sdb"
+                    }
+                ],
+                "ShrinkPolicy": {}
+            }
+        ]
+    }
+}

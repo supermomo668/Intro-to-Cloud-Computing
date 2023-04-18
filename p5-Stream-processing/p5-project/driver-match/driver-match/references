@@ -1,0 +1,24 @@
+{
+  "referenceGuide":"Cite all the reference sources in the required format. Proper citations will help you avoid unnecessary trouble but does not make it acceptable to copy code. Read the course and university policy statements in this regard. When working with others, limit the discussion to block diagrams and arrows. Do not look at another students' code. Read the JSON semantics and make use of JSON validator from the Internet if needed.",
+  "websites":[
+    {
+      "title":"Github",
+      "url":"https://github.com/sakserv",
+      "code":"KafkaReadfileProducer.java",
+      "description":"an example implementation of KafkaReadfileProducer"
+    },
+    {
+      "title":"Sample Codes (Java) for distance calculation",
+      "url":"https://www.geodatasource.com/developers/java",
+      "code":"DriverMatchTask.java",
+      "description":"sample code for distance calculation"
+    }
+  ],
+  "collaborators":[
+    {
+      "andrewId":"<collaborator andrewId>",
+      "collaborationType":"<I helped X, X helped me, or we helped each other>",
+      "description":"<describe the idea discussed or shared>"
+    }
+  ]
+}

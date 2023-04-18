@@ -1,0 +1,4 @@
+NAME              CLASS     HOSTS   ADDRESS   PORTS   AGE
+wecloud-ingress   wecloud   *                 80      36s
+NAME              CLASS     HOSTS   ADDRESS          PORTS   AGE
+wecloud-ingress   wecloud   *       35.196.210.104   80      96m

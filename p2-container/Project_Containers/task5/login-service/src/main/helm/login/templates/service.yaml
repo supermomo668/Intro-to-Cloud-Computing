@@ -1,0 +1,12 @@
+apiVersion: v1  # 
+kind: Service       # ServiceTypes 
+metadata:              # Attributes related to  config
+  name: spring-login-service   # name 
+spec:
+  type: NodePort           
+  selector:     # service targets is defined with a label selector
+    app: wecloud-login
+  ports:    
+    - protocol: TCP   # protocol
+      port: 80            #  request port
+      targetPort: 8080 # port listens to

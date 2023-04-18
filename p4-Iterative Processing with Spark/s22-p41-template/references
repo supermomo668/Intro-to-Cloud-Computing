@@ -1,0 +1,18 @@
+{
+  "referenceGuide":"Cite all the reference sources in the required format. Proper citations will help you avoid unnecessary trouble but does not make it acceptable to copy code. Read the course and university policy statements in this regard. When working with others, limit the discussion to block diagrams and arrows. Do not look at another students' code. Read the JSON semantics and make use of JSON validator from the Internet if needed.",
+  "websites":[
+    {
+      "title":"Github",
+      "url":"https://github.com/apache/spark/blob/master/examples/src/main/scala/org/apache/spark/examples/SparkPageRank.scala",
+      "code":"task 2 entirely",
+      "description":"Scala github reference on implementation of pagerank"
+    }
+  ],
+  "collaborators":[
+    {
+      "andrewId":"<collaborator andrewId>",
+      "collaborationType":"<I helped X, X helped me, or we helped each other>",
+      "description":"<describe the idea discussed or shared>"
+    }
+  ]
+}

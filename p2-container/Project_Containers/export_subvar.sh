@@ -1,0 +1,2 @@
+export SUBMISSION_USERNAME=mangyinm@andrew.cmu.edu
+export SUBMISSION_PASSWORD=AnjJJXblinZm7DUhnBBRnr

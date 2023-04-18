@@ -1,0 +1,6 @@
+{"userId":4783,"interest":"sushi","duration":3172236,"type":"RIDER_INTEREST"}
+{"userId":4783,"mood":6,"blood_sugar":3,"stress":2,"active":1,"type":"RIDER_STATUS"}
+{"userId":16756,"interest":"mexican","duration":897392,"type":"RIDER_INTEREST"}
+{"userId":16756,"mood":5,"blood_sugar":1,"stress":4,"active":0,"type":"RIDER_STATUS"}
+{"blockId":5077,"driverId":2497,"latitude":40.7811222,"longitude":-73.9475722,"type":"LEAVING_BLOCK","status":"AVAILABLE"}
+{"driverId":2497,"blockId":5081,"latitude":40.779778,"longitude":-73.9444019,"type":"DRIVER_LOCATION"}

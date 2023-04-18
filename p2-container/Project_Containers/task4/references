@@ -1,0 +1,18 @@
+{  
+    "referenceGuide" : "Cite all the reference sources in the required format. Proper citations will help you avoid unnecessary trouble. Read JSON grammar from Internet if needed.",
+    "websites":[  
+        {  
+            "title":"Kubernetes official documentation page",
+            "url":"https://kubernetes.io/docs/tutorials/configuration",
+            "code":"Ingress",
+            "description":"looked at how to include environ variables"
+        }
+    ],
+    "collaborators":[
+        {
+            "submissionUsername":"<collaborator submissionUsername>",
+            "collaborationType":"<I helped X, X helped me, or we helped each other>",
+            "description":"<describe the idea you shared>"
+        }
+    ]
+}

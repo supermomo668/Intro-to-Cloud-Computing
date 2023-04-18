@@ -1,0 +1,7 @@
+CURRENT   NAME                                                             CLUSTER                                                          AUTHINFO                                                         NAMESPACE
+*         gke_gcp-docker-kubernetes-341822_us-east1-d_wecloudchatcluster   gke_gcp-docker-kubernetes-341822_us-east1-d_wecloudchatcluster   gke_gcp-docker-kubernetes-341822_us-east1-d_wecloudchatcluster   
+CURRENT   NAME                                                             CLUSTER                                                          AUTHINFO                                                         NAMESPACE
+*         gke_gcp-docker-kubernetes-341822_us-east1-d_wecloudchatcluster   gke_gcp-docker-kubernetes-341822_us-east1-d_wecloudchatcluster   gke_gcp-docker-kubernetes-341822_us-east1-d_wecloudchatcluster   
+CURRENT   NAME                                                             CLUSTER                                                          AUTHINFO                                                         NAMESPACE
+          gke_gcp-docker-kubernetes-341822_us-east1-d_wecloudchatcluster   gke_gcp-docker-kubernetes-341822_us-east1-d_wecloudchatcluster   gke_gcp-docker-kubernetes-341822_us-east1-d_wecloudchatcluster   
+*         p5-azure-cluster                                                 p5-azure-cluster                                                 clusterUser_cloudcomputing-p2_task5_p5-azure-cluster             

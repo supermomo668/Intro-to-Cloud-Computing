@@ -1,0 +1,4 @@
+Total number of applications (application-types: [] and states: [SUBMITTED, ACCEPTED, RUNNING]):2
+                Application-Id	    Application-Name	    Application-Type	      User	     Queue	             State	       Final-State	       Progress	                       Tracking-URL
+application_1649019148225_0003	newsfeed-generate-messages_1	               Samza	    hadoop	   default	           RUNNING	         UNDEFINED	             0%	ip-172-31-28-250.ec2.internal:44281
+application_1649019148225_0001	  newsfeed-fan-out_1	               Samza	    hadoop	   default	           RUNNING	         UNDEFINED	             0%	ip-172-31-20-198.ec2.internal:41793

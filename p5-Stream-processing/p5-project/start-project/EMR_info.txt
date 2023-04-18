@@ -1,0 +1,114 @@
+{
+    "Clusters": [
+        {
+            "Id": "j-3JMQMLFNNKCX7",
+            "Name": "p43-emr-cluster",
+            "Status": {
+                "State": "WAITING",
+                "StateChangeReason": {
+                    "Message": "Cluster ready after last step completed."
+                },
+                "Timeline": {
+                    "CreationDateTime": 1649647678.569,
+                    "ReadyDateTime": 1649648072.703
+                }
+            },
+            "NormalizedInstanceHours": 0,
+            "ClusterArn": "arn:aws:elasticmapreduce:us-east-1:380955945980:cluster/j-3JMQMLFNNKCX7"
+        }
+    ]
+}
+{
+    "Clusters": [
+        {
+            "Id": "j-3JMQMLFNNKCX7",
+            "Name": "p43-emr-cluster",
+            "Status": {
+                "State": "WAITING",
+                "StateChangeReason": {
+                    "Message": "Cluster ready after last step completed."
+                },
+                "Timeline": {
+                    "CreationDateTime": 1649647678.569,
+                    "ReadyDateTime": 1649648072.703
+                }
+            },
+            "NormalizedInstanceHours": 12,
+            "ClusterArn": "arn:aws:elasticmapreduce:us-east-1:380955945980:cluster/j-3JMQMLFNNKCX7"
+        },
+        {
+            "Id": "j-3CEEXN20LRGTR",
+            "Name": "p43-emr-cluster",
+            "Status": {
+                "State": "TERMINATED_WITH_ERRORS",
+                "StateChangeReason": {
+                    "Code": "INSTANCE_FAILURE",
+                    "Message": "All instances in the job flow are terminated by user"
+                },
+                "Timeline": {
+                    "CreationDateTime": 1649561274.198,
+                    "ReadyDateTime": 1649561657.701,
+                    "EndDateTime": 1649561982.457
+                }
+            },
+            "NormalizedInstanceHours": 12,
+            "ClusterArn": "arn:aws:elasticmapreduce:us-east-1:380955945980:cluster/j-3CEEXN20LRGTR"
+        },
+        {
+            "Id": "j-1C5PVABRT7YHU",
+            "Name": "p43-emr-cluster",
+            "Status": {
+                "State": "TERMINATED",
+                "StateChangeReason": {
+                    "Code": "USER_REQUEST",
+                    "Message": "Terminated by user request"
+                },
+                "Timeline": {
+                    "CreationDateTime": 1649117534.767,
+                    "ReadyDateTime": 1649118011.658,
+                    "EndDateTime": 1649120275.043
+                }
+            },
+            "NormalizedInstanceHours": 12,
+            "ClusterArn": "arn:aws:elasticmapreduce:us-east-1:380955945980:cluster/j-1C5PVABRT7YHU"
+        },
+        {
+            "Id": "j-3OVR6WO06WXQS",
+            "Name": "p43-primer-emr-cluster",
+            "Status": {
+                "State": "TERMINATED",
+                "StateChangeReason": {
+                    "Code": "USER_REQUEST",
+                    "Message": "Terminated by user request"
+                },
+                "Timeline": {
+                    "CreationDateTime": 1649018860.925,
+                    "ReadyDateTime": 1649019224.01,
+                    "EndDateTime": 1649064106.96
+                }
+            },
+            "NormalizedInstanceHours": 156,
+            "ClusterArn": "arn:aws:elasticmapreduce:us-east-1:380955945980:cluster/j-3OVR6WO06WXQS"
+        }
+    ]
+}
+{
+    "Clusters": [
+        {
+            "Id": "j-3JMQMLFNNKCX7",
+            "Name": "p43-emr-cluster",
+            "Status": {
+                "State": "WAITING",
+                "StateChangeReason": {
+                    "Message": "Cluster ready after last step completed."
+                },
+                "Timeline": {
+                    "CreationDateTime": 1649647678.569,
+                    "ReadyDateTime": 1649648072.703
+                }
+            },
+            "NormalizedInstanceHours": 12,
+            "ClusterArn": "arn:aws:elasticmapreduce:us-east-1:380955945980:cluster/j-3JMQMLFNNKCX7"
+        }
+    ]
+}

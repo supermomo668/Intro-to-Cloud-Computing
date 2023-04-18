@@ -1,0 +1,28 @@
+apiVersion: apps/v1   # defines the particular functionalities of Kubernetes to be used
+kind: Deployment   # ServiceTypes allow you to specify what kind of Service you want
+metadata:  # Attributes related to  your deployment
+  name: spring-chat-deployment        # creates a deployment with the given name
+  labels:
+    app: wecloud-chat
+spec:
+  replicas: 3       # specify number of replicated Pods
+  selector:     # defines how the Deployment finds which Pods to manage
+    matchLabels:
+      app: wecloud-chat
+  template:           # template of the configuration to be deployed on pods
+    metadata:
+      labels:
+        app: wecloud-chat       # label for the pods
+    spec:             # specifications defined of the pods
+      containers:
+      - name: wecloud-chat #  name of app that pods run
+        image: gcr.io/gcp-docker-kubernetes-341822/containers-chat:latest    # docker image: tag to be run on pod
+        ports:
+        - containerPort: 8080 # listening port of the container
+        envFrom:
+        - configMapRef:
+            name: spring-chat-config
+        resources:
+          requests:
+            cpu: 200m
+            

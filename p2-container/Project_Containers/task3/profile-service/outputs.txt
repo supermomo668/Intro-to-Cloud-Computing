@@ -1,0 +1,3 @@
+Name                           CloudName    SubscriptionId                        State    IsDefault
+-----------------------------  -----------  ------------------------------------  -------  -----------
+Microsoft Azure Sponsorship 2  AzureCloud   70e826c7-0644-40e0-baf8-6ea10a818774  Enabled  True

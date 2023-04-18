@@ -1,0 +1,5 @@
+NAME         	NAMESPACE	REVISION	UPDATED                                	STATUS  	CHART      	APP VERSION
+mysql-profile	default  	1       	2022-02-20 01:32:59.964741587 +0000 UTC	deployed	mysql-1.6.9	5.7.30     
+NAME         	NAMESPACE	REVISION	UPDATED                                	STATUS  	CHART        	APP VERSION
+mysql-profile	default  	1       	2022-02-20 01:32:59.964741587 +0000 UTC	deployed	mysql-1.6.9  	5.7.30     
+profile      	default  	1       	2022-02-20 01:33:02.419871923 +0000 UTC	deployed	profile-0.1.0	1.0        

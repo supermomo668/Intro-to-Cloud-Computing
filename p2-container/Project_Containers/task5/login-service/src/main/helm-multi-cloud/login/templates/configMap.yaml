@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: spring-login-config
+data:
+  MYSQL_DB_HOST: 'mysql-profile.default.svc.cluster.local'
+  MYSQL_DB_USER: 'eric'
+  MYSQL_DB_PASSWORD: 'pagemaster'
+  MYSQL_DB_PORT: '3306'
+  # 
+  CHAT_ENDPOINT: '35.229.104.186'  # GCP ingress IP
+  
+  # Replace with LB external IP 
+  

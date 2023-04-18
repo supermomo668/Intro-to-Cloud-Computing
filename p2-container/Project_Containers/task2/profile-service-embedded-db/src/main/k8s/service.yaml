@@ -1,0 +1,12 @@
+apiVersion: v1  # defines the particular functionalities of Kubernetes to be used
+kind: Service       # ServiceTypes allow you to specify what kind of Service you want
+metadata:              # Attributes related to  your config
+  name: spring-profile-service   # create a named service where name is valid DNS label name
+spec:
+  type: LoadBalancer           
+  selector:     # set of pods that a service targets is defined with a label selector
+    app: wecloud-app  
+  ports:    
+    - protocol: TCP   # protocol selected for the ports below
+      port: 80            # incoming request port
+      targetPort: 8080 # port that the pod listens to

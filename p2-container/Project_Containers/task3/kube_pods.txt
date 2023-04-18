@@ -1,0 +1,9 @@
+NAME                             READY   STATUS    RESTARTS   AGE
+mysql-profile-86d7f86598-fplqg   0/1     Pending   0          1s
+NAME                             READY   STATUS            RESTARTS   AGE
+mysql-profile-86d7f86598-fplqg   0/1     PodInitializing   0          29s
+NAME                                         READY   STATUS             RESTARTS   AGE
+mysql-profile-86d7f86598-fplqg               1/1     Running            0          85m
+spring-profile-deployment-78964597bc-4fz5c   0/1     CrashLoopBackOff   7          14m
+spring-profile-deployment-78964597bc-5ggmx   0/1     CrashLoopBackOff   7          14m
+spring-profile-deployment-78964597bc-gxdsd   0/1     CrashLoopBackOff   7          14m
